@@ -87,5 +87,5 @@ En una vista adicional:
 
 ```bash
 git clone https://github.com/carlosmaumarty17/Prueba-T-cnica-Vue-Firebase.git
-cd Prueba-T-cnica-Vue-Firebase
+cd Prueba-Tecnica-Vue-Firebase
 npm install
