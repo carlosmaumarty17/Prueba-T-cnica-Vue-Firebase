@@ -7,6 +7,8 @@ Este proyecto es una prueba técnica donde se implementa un sitio web con **Vue 
 3. 🔐 Descarga segura de archivos con clave
 4. 🧾 Registro de archivos en **Firestore** y visualización dinámica en frontend
 
+🔗 **Sitio web desplegado:** [https://ejemplofirebase-e51c2.web.app/](https://ejemplofirebase-e51c2.web.app/)
+
 ---
 
 ## 📦 Tecnologías utilizadas
