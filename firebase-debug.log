@@ -1,0 +1,307 @@
+[debug] [2025-08-06T14:11:27.260Z] ----------------------------------------------------------------------
+[debug] [2025-08-06T14:11:27.264Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\I3 N\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-08-06T14:11:27.265Z] CLI Version:   14.11.2
+[debug] [2025-08-06T14:11:27.265Z] Platform:      win32
+[debug] [2025-08-06T14:11:27.266Z] Node Version:  v22.15.1
+[debug] [2025-08-06T14:11:27.266Z] Time:          Wed Aug 06 2025 09:11:27 GMT-0500 (hora estándar de Colombia)
+[debug] [2025-08-06T14:11:27.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-06T14:11:27.799Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-06T14:11:27.800Z] > authorizing via signed-in user (cmartinezperez@correo.unicordoba.edu.co)
+[info] i  emulators: Starting emulators: functions, hosting, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting, extensions"}}
+[debug] [2025-08-06T14:11:27.811Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:27.812Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:27.814Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/ejemplofirebase-e51c2 [none]
+[debug] [2025-08-06T14:11:28.736Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/ejemplofirebase-e51c2 200
+[debug] [2025-08-06T14:11:28.736Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/ejemplofirebase-e51c2 {"projectNumber":"1082305159625","projectId":"ejemplofirebase-e51c2","lifecycleState":"ACTIVE","name":"EjemploFirebase","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-08-04T21:08:21.102212Z","parent":{"type":"organization","id":"733774579053"}}
+[debug] [2025-08-06T14:11:28.763Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-08-06T14:11:28.763Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-08-06T14:11:28.764Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-08-06T14:11:28.777Z] [hub] writing locator at C:\Users\I3N~1\AppData\Local\Temp\hub-ejemplofirebase-e51c2.json
+[debug] [2025-08-06T14:11:28.795Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-08-06T14:11:28.811Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-08-06T14:11:28.811Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-08-06T14:11:28.812Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-08-06T14:11:28.812Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-08-06T14:11:28.864Z] defaultcredentials: writing to file C:\Users\I3 N\AppData\Roaming\firebase\cmartinezperez_correo_unicordoba.edu.co_application_default_credentials.json
+[debug] [2025-08-06T14:11:28.870Z] Setting GAC to C:\Users\I3 N\AppData\Roaming\firebase\cmartinezperez_correo_unicordoba.edu.co_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\I3 N\\AppData\\Roaming\\firebase\\cmartinezperez_correo_unicordoba.edu.co_application_default_credentials.json"}}
+[debug] [2025-08-06T14:11:28.872Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:28.872Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:28.872Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/adminSdkConfig [none]
+[debug] [2025-08-06T14:11:29.320Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/adminSdkConfig 200
+[debug] [2025-08-06T14:11:29.320Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/adminSdkConfig {"projectId":"ejemplofirebase-e51c2","storageBucket":"ejemplofirebase-e51c2.firebasestorage.app"}
+[debug] [2025-08-06T14:11:29.366Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:29.366Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:29.366Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/sites 
+[debug] [2025-08-06T14:11:30.257Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/sites 200
+[debug] [2025-08-06T14:11:30.257Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/sites {"sites":[{"name":"projects/ejemplofirebase-e51c2/sites/ejemplofirebase-e51c2","defaultUrl":"https://ejemplofirebase-e51c2.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-08-06T14:11:30.258Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:30.258Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:30.259Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/webApps/-/config [none]
+[debug] [2025-08-06T14:11:30.769Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/webApps/-/config 200
+[debug] [2025-08-06T14:11:30.769Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2/webApps/-/config {"projectId":"ejemplofirebase-e51c2","appId":"1:1082305159625:web:70fc3f78e74e4c531b0818","storageBucket":"ejemplofirebase-e51c2.firebasestorage.app","apiKey":"AIzaSyDAqmMyGbqqUqo2Ndt_c1u2s6we5Ercu-U","authDomain":"ejemplofirebase-e51c2.firebaseapp.com","messagingSenderId":"1082305159625","measurementId":"G-194C1NZN7Y"}
+[debug] [2025-08-06T14:11:30.793Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:30.793Z] Checked if tokens are valid: true, expires at: 1754491985144
+[debug] [2025-08-06T14:11:30.794Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2 [none]
+[debug] [2025-08-06T14:11:31.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2 200
+[debug] [2025-08-06T14:11:31.062Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ejemplofirebase-e51c2 {"projectId":"ejemplofirebase-e51c2","projectNumber":"1082305159625","displayName":"EjemploFirebase","name":"projects/ejemplofirebase-e51c2","resources":{"hostingSite":"ejemplofirebase-e51c2"},"state":"ACTIVE","etag":"1_7503bc8b-d58d-4284-a4f0-fb3770829d9d"}
+[info] i  hosting[ejemplofirebase-e51c2]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[ejemplofirebase-e51c2]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2025-08-06T14:11:31.111Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\I3 N\prueba1\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\I3 N\\prueba1\\functions\" for Cloud Functions..."}}
+[debug] [2025-08-06T14:11:31.124Z] Validating nodejs source
+[debug] [2025-08-06T14:11:32.908Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "echo 'Lint deshabilitado temporalmente'",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-08-06T14:11:32.909Z] Building nodejs source
+[debug] [2025-08-06T14:11:32.909Z] Failed to find version of module node: reached end of search path C:\Users\I3 N\prueba1\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-08-06T14:11:32.913Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-08-06T14:11:32.925Z] Found firebase-functions binary at 'C:\Users\I3 N\prueba1\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8075
+
+[error] TypeError: functions.storage.object is not a function
+    at Object.<anonymous> (C:\Users\I3 N\prueba1\functions\index.js:13:45)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at loadModule (C:\Users\I3 N\prueba1\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+
+[debug] [2025-08-06T14:11:34.395Z] Got response code 400; body Failed to generate manifest from function source: functions.storage.object is not a function
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2025-08-06T14:11:38.442Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Hosting    │ 127.0.0.1:5000 │ n/a                              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:14:11:44 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:14:11:44 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:14:11:54 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:14:11:54 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:14:12:05 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:14:12:05 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:14:22:43 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:14:22:43 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:14:35:57 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:14:35:57 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[debug] [2025-08-06T15:03:25.149Z] File C:\Users\I3 N\prueba1\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\I3 N\\prueba1\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-08-06T15:03:26.166Z] Validating nodejs source
+[debug] [2025-08-06T15:03:28.592Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "echo 'Lint deshabilitado temporalmente'",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-08-06T15:03:28.593Z] Building nodejs source
+[debug] [2025-08-06T15:03:28.594Z] Failed to find version of module node: reached end of search path C:\Users\I3 N\prueba1\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-08-06T15:03:28.608Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-08-06T15:03:28.644Z] Found firebase-functions binary at 'C:\Users\I3 N\prueba1\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8476
+
+[error] TypeError: functions.storage.object is not a function
+    at Object.<anonymous> (C:\Users\I3 N\prueba1\functions\index.js:20:45)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at loadModule (C:\Users\I3 N\prueba1\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+
+[debug] [2025-08-06T15:03:31.215Z] Got response code 400; body Failed to generate manifest from function source: functions.storage.object is not a function
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:03:44 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:03:44 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:03:45 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:03:45 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:09:52 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:09:52 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:09:52 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:09:52 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:19:04 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:19:04 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:19:06 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:19:06 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:19:06 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:19:06 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:24:05 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:24:05 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:31:55 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:31:55 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:33:11 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:33:11 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:39:34 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:39:34 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:39:34 +0000] "GET /css/app.99fc46c9.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:39:34 +0000] \"GET /css/app.99fc46c9.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:39:34 +0000] "GET /js/app.2ad38f90.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:39:34 +0000] \"GET /js/app.2ad38f90.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:39:35 +0000] "GET /js/chunk-vendors.7f5bfc5d.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:39:35 +0000] \"GET /js/chunk-vendors.7f5bfc5d.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:40:42 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:40:42 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:15:48:18 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:15:48:18 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:03:14 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:03:14 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:03:14 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:03:14 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[debug] [2025-08-06T16:07:50.881Z] File C:\Users\I3 N\prueba1\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\I3 N\\prueba1\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-08-06T16:07:51.899Z] Validating nodejs source
+[debug] [2025-08-06T16:07:53.667Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "echo 'Lint deshabilitado temporalmente'",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-08-06T16:07:53.667Z] Building nodejs source
+[debug] [2025-08-06T16:07:53.667Z] Failed to find version of module node: reached end of search path C:\Users\I3 N\prueba1\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-08-06T16:07:53.671Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-08-06T16:07:53.682Z] Found firebase-functions binary at 'C:\Users\I3 N\prueba1\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8673
+
+[error] TypeError: functions.storage.object is not a function
+    at Object.<anonymous> (C:\Users\I3 N\prueba1\functions\index.js:20:45)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at loadModule (C:\Users\I3 N\prueba1\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+
+[debug] [2025-08-06T16:07:55.138Z] Got response code 400; body Failed to generate manifest from function source: functions.storage.object is not a function
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2025-08-06T16:10:25.827Z] File C:\Users\I3 N\prueba1\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\I3 N\\prueba1\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-08-06T16:10:26.829Z] Validating nodejs source
+[debug] [2025-08-06T16:10:28.564Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "echo 'Lint deshabilitado temporalmente'",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-08-06T16:10:28.564Z] Building nodejs source
+[debug] [2025-08-06T16:10:28.564Z] Failed to find version of module node: reached end of search path C:\Users\I3 N\prueba1\functions\node_modules
+[info] +  functions: Using node@22 from host. 
+[debug] [2025-08-06T16:10:28.566Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-08-06T16:10:28.576Z] Found firebase-functions binary at 'C:\Users\I3 N\prueba1\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8780
+
+[error] TypeError: functions.storage.object is not a function
+    at Object.<anonymous> (C:\Users\I3 N\prueba1\functions\index.js:24:45)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at loadModule (C:\Users\I3 N\prueba1\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+
+[debug] [2025-08-06T16:10:29.775Z] Got response code 400; body Failed to generate manifest from function source: functions.storage.object is not a function
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:14:35 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:14:35 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:15:28 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:15:28 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:17:13 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:17:13 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:17:14 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:17:14 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:18:13 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:18:13 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [06/Aug/2025:16:24:38 +0000] "GET / HTTP/1.1" 200 470 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [06/Aug/2025:16:24:38 +0000] \"GET / HTTP/1.1\" 200 470 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\""}}
